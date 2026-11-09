@@ -213,9 +213,14 @@ diff -r source-tree out/<label>
 4. `davfs` serves the tree over WebDAV on localhost, and Windows maps it with
    `net use X: http://localhost:PORT/`.
 
-## Author
+## How this was made
 
-Jose Acosta Hernandez
+The idea, requirements and real-world testing are by **Jose Acosta Hernandez**: I needed to get files out
+of a btrfs Linux VM disk on Windows and couldn't find a simple tool for it.
+
+Most of the code, the tests and this README were written by **Claude** (Anthropic's AI) working from those
+requirements, with me directing what to build, trying it on my own disks and reporting what broke.
+Bug reports and pull requests are welcome.
 
 ## License
 
